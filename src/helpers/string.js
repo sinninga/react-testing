@@ -1,4 +1,7 @@
 export function capitalize(word) {
-  return null;
+  if (word === null) {
+    return null;
+  }
+  return word.toUpperCase();
 }
 
