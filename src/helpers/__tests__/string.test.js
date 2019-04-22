@@ -19,3 +19,11 @@ test('capitalize should handle one letter string A', () => {
 test('capitalize should handle work for boris', () => {
   expect(capitalize("boris")).toBe("Boris");
 });
+
+test('capitalize should handle work for Boris', () => {
+  expect(capitalize("Boris")).toBe("Boris");
+});
+
+test('capitalize should handle work for BORIS', () => {
+  expect(capitalize("BORIS")).toBe("Boris");
+});
